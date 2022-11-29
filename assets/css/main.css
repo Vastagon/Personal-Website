@@ -2560,15 +2560,16 @@ input, select, textarea {
 				}
 
 /* Image */
-	.tkd-image{
-		position: absolute;
-	}
 
 	.image {
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 30em;
+	}
+	.tkd-image{
+		width: auto;
 	}
 
 		.image img {
